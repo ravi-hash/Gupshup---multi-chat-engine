@@ -11,7 +11,7 @@ from utils import *
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-TOKEN = "5486794876:AAE3FNoid8ePJL0ih1BMsDM0W6kJrWvzCbw"
+TOKEN = "Put your Bot father Token "
 
 app = Flask(__name__)
 
