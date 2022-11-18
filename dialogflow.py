@@ -6,7 +6,7 @@ import dialogflow_v2 as dialogflow
 
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "client.json"
 dialogflow_session_client = dialogflow.SessionsClient()
-PROJECT_ID = "ferrous-acronym-368611"
+PROJECT_ID = "your_project_id" #that will you get while creating your Json file on Google console 
 
 client = gnewsclient.NewsClient()
 
