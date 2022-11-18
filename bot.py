@@ -5,7 +5,7 @@ from flask import Flask, request
 from telegram import Bot, Update, ReplyKeyboardMarkup
 from telegram.ext import Updater,Dispatcher,CommandHandler,Filters,MessageHandler,CallbackContext
 
-from utils import *
+from dialogflow import *
 
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
