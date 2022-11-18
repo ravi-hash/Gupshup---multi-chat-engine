@@ -1,3 +1,10 @@
+
+pip3 freeze > requirements.txt for  Python3
+And
+pip freeze > requirements.txt  for Python2
+And run in your terminal.
+It will automatically create requirment.txt file in your folder.
+
 APScheduler==3.6.3
 backports.zoneinfo==0.2.1
 cachetools==4.2.2
